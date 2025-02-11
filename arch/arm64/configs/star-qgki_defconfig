@@ -6619,7 +6619,7 @@ CONFIG_SYSTEM_TRUSTED_KEYS=""
 # CONFIG_SYSTEM_BLACKLIST_KEYRING is not set
 # end of Certificates for signature checking
 
-CONFIG_BINARY_PRINTF=y
+#CONFIG_BINARY_PRINTF is not set
 
 #
 # Library routines
