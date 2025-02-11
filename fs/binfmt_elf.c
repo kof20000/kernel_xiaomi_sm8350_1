@@ -670,7 +670,7 @@ out:
  * libraries.  There is no binary dependent code anywhere else.
  */
 
-static int load_elf_binary(struct linux_binprm *bprm)
+/*static int load_elf_binary(struct linux_binprm *bprm)
 {
 	struct file *interpreter = NULL; /* to shut gcc up */
  	unsigned long load_addr = 0, load_bias = 0;
