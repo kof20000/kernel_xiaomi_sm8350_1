@@ -872,13 +872,12 @@ CONFIG_FREEZER=y
 #
 # Executable file formats
 #
-#CONFIG_BINFMT_ELF is not set
-#CONFIG_BINFMT_SCRIPT is not set
-#CONFIG_COMPAT_BINFMT_ELF is not set
-#CONFIG_ELFCORE is not set
+CONFIG_BINFMT_ELF=y
+CONFIG_COMPAT_BINFMT_ELF=y
+CONFIG_ELFCORE=y
 # CONFIG_CORE_DUMP_DEFAULT_ELF_HEADERS is not set
-#CONFIG_BINFMT_SCRIPT is not set
-#CONFIG_BINFMT_MISC is not set
+CONFIG_BINFMT_SCRIPT=y
+CONFIG_BINFMT_MISC=y
 CONFIG_COREDUMP=y
 # end of Executable file formats
 
@@ -6619,7 +6618,7 @@ CONFIG_SYSTEM_TRUSTED_KEYS=""
 # CONFIG_SYSTEM_BLACKLIST_KEYRING is not set
 # end of Certificates for signature checking
 
-#CONFIG_BINARY_PRINTF is not set
+CONFIG_BINARY_PRINTF=y
 
 #
 # Library routines
